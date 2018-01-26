@@ -14,7 +14,10 @@
     "keywords": [
         "keymap",
         "keybindings",
-        "jetbrains"
+        "jetbrains",
+        "intellij idea",
+        "pycharm",
+        "webstorm"
     ],
     "preview": true,
     "icon": "jetbrains_keyboard.png",
