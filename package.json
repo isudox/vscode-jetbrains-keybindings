@@ -455,7 +455,7 @@
             "type": "object",
             "title": "JetBrains IDE Keymap configuration",
             "properties": {
-                "sublimeTextKeymap.promptV3Features": {
+                "jetbrainsKeymap.promptV3Features": {
                     "type": [
                         "boolean",
                         "null"
