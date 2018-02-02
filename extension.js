@@ -74,7 +74,7 @@ class View {
         this.updateSetting.persist()
         showInformationMessage(this.messages.noChange)
       } else if (selectedOption === this.messages.learnMore) {
-        vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://marketplace.visualstudio.com/items?itemName=sudoz-vscode.jetbrains-keybindings'))
+        vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://marketplace.visualstudio.com/items?itemName=isudox.vscode-jetbrains-keybindings'))
       }
     })
   }

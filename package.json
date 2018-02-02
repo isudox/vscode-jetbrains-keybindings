@@ -2,7 +2,7 @@
     "name": "vscode-jetbrains-keybindings",
     "displayName": "JetBrains IDE Keymap",
     "description": "JetBrains IDE Keymap extension for VS Code.",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "publisher": "isudox",
     "license": "MIT",
     "engines": {
@@ -16,7 +16,6 @@
         "keybindings",
         "jetbrains",
         "intellij idea",
-        "pycharm",
         "webstorm"
     ],
     "preview": true,
