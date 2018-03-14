@@ -2,7 +2,7 @@
     "name": "vscode-jetbrains-keybindings",
     "displayName": "JetBrains IDE Keymap",
     "description": "JetBrains IDE Keymap extension for VS Code.",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "publisher": "isudox",
     "license": "MIT",
     "engines": {
@@ -18,7 +18,7 @@
         "intellij idea",
         "webstorm"
     ],
-    "preview": true,
+    "preview": false,
     "icon": "jetbrains_keyboard.png",
     "activationEvents": [
         "*"
@@ -71,6 +71,13 @@
                 "command": "editor.action.clipboardCopyAction",
                 "when": "editorTextFocus",
                 "jetbrains": "Copy current line to clipboard"
+            },
+            {
+                "key": "ctrl+d",
+                "mac": "cmd+d",
+                "command": "editor.action.copyLinesDownAction",
+                "when": "editorTextFocus && !editorReadonly",
+                "jetbrains": "Duplicate Line or Selection"
             },
             {
                 "key": "shift+ctrl+up",
