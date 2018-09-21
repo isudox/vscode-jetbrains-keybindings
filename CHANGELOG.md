@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.1.6]
+- Add some new keybindings.
+
 ## [0.1.2]
 - Update readme.
 
