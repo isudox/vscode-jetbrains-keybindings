@@ -15,7 +15,7 @@ This keymap has covered most of keyboard shortcuts of VS Code, and makes VS Code
 
 But this extension hasn't transfer all keybindings of JetBrains yet. If you want more feature, go to [GitHub Issues](https://github.com/isudox/vscode-jetbrains-keybindings/issues) and make it more effective for your developement.
 
-All of the customed keymap in this extension is configured in `./package.json` file. You can add or modify keymap configuraions as seen below.
+All of the customed keymap in this extension is configured in `./package.json` file. You can add or modify keymap configurations as seen below.
 
 ```json
 {
