@@ -2,7 +2,7 @@
   "name": "vscode-jetbrains-keybindings",
   "displayName": "JetBrains IDE Keymap",
   "description": "JetBrains IDE Keymap Extension for VS Code.",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "publisher": "isudox",
   "license": "MIT",
   "engines": {
@@ -753,16 +753,16 @@
       {
         "key": "ctrl+backspace",
         "mac": "alt+backspace",
-        "command": "deleteWordRight",
+        "command": "deleteWordLeft",
         "when": "editorTextFocus && !editorReadonly",
-        "jetbrains": "Delete to word end"
+        "jetbrains": "Delete to word start"
       },
       {
         "key": "ctrl+delete",
         "mac": "alt+delete",
-        "command": "deleteWordLeft",
+        "command": "deleteWordRight",
         "when": "editorTextFocus && !editorReadonly",
-        "jetbrains": "Delete to word start"
+        "jetbrains": "Delete to word end"
       },
       {
         "key": "ctrl+numpad_add",

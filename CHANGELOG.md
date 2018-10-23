@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.1.7]
+- Fix [issue #6](https://github.com/isudox/vscode-jetbrains-keybindings/issues/6).
+
 ## [0.1.6]
 - Add some new keybindings.
 
