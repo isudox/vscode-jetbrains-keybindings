@@ -861,9 +861,9 @@
         }
       },{
         "key": "ctrl+alt+shift+t",
-        "mac": "ctrl+alt+shift+t",
+        "mac": "alt+t",
         "command": "editor.action.refactor",
-        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly",
         "jetbrains": "Refactor this (selected expressions or statements)"
       },{
         "key": "alt+0",
