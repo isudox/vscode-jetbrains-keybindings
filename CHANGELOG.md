@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.1.8]
+- Add refactor this command with `^` + `t` in macOS and `ctrl` + `shift` + `alt` + `t` in Windows & Linux.
+
 ## [0.1.7]
 - Fix [issue #6](https://github.com/isudox/vscode-jetbrains-keybindings/issues/6).
 
