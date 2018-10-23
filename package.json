@@ -859,8 +859,13 @@
           "kind": "refactor.extract.constant",
           "apply": "ifSingle"
         }
-      },
-      {
+      },{
+        "key": "ctrl+alt+shift+t",
+        "mac": "ctrl+t",
+        "command": "editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly",
+        "jetbrains": "Refactor this (selected expressions or statements)"
+      },{
         "key": "alt+0",
         "mac": "cmd+0",
         "command": "workbench.actions.view.problems",
