@@ -58,7 +58,7 @@ class View {
       no: 'No',
       learnMore: 'Learn More',
       prompt: 'New features are available for JetBrains Keymap. Do you want to enable the new features?',
-      noChange: 'JetBrains Keymap: New features have not been enable.',
+      noChange: 'JetBrains Keymap: New features have not been enabled.',
       change: 'JetBrains Keymap: New features have been added.',
     }
   }
