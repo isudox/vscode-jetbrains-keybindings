@@ -19,6 +19,7 @@
   ],
   "preview": false,
   "icon": "jetbrains_keyboard.png",
+  "extensionKind": "ui",
   "activationEvents": [
     "*"
   ],
