@@ -43,8 +43,8 @@ You can see all the keyboard shortcuts in the tables as followed
 
 ### General
 
-| Command | Feature | Linux, Windows | macOS ||
-|---------|---------|----------------|-------|-----------|
+| Command | Feature | Linux/Win | macOS | |
+|---------|---------|----------------|-------|-|
 |workbench.action.files.saveAll|Save all|ctrl+s|cmd+s|✅|
 ||Open corresponding tool window|alt+[0-9]|cmd+[0,9]|✅|
 |workbench.action.sync|Synchronize|ctrl+alt+y|cmd+alt+y|✅|
@@ -57,20 +57,9 @@ You can see all the keyboard shortcuts in the tables as followed
 
 ### Debugging
 
-| Command | Feature | Linux, Windows | macOS |
-|---------|---------|----------------|-------|
-|workbench.action.quickOpenNavigateNext|Switch between tabs and tool window|ctrl+tab|ctrl+tab|
-|workbench.action.quickOpen|Go to file|ctrl+shift+n|cmd+shift+o|
-|workbench.action.closeActiveEditor|Close active editor tab|ctrl+f4|cmd+w|
-|workbench.action.openGlobalSettings|Open Settings dialog|ctrl+alt+s|cmd+,|
-|editor.action.clipboardCutAction|Cut current line to clipboard|ctrl+x|cmd+x|
-|editor.action.clipboardCopyAction|Copy current line to clipboard|ctrl+c|cmd+c|
-
-### Search / Replace
-
-| Command | Feature | Linux, Windows | macOS ||
-|---------|---------|----------------|-------||
-|workbench.action.debug.stepOver|Step over / into||f8|f8|✅|
+| Command | Feature | Linux/Win | macOS | |
+|---------|---------|----------------|-------|-|
+|workbench.action.debug.stepOver|Step over / into|f8|f8|✅|
 |workbench.action.debug.stepOut|Step out|shift+f8|shift+f8|✅|
 |workbench.action.debug.stepOut|Smart Step into|shift+f7|shift+f7|❌|
 |editor.debug.action.runToCursor|Run to cursor|alt+f9|alt+f9|✅|
@@ -79,40 +68,51 @@ You can see all the keyboard shortcuts in the tables as followed
 |editor.debug.action.toggleBreakpoint|Toggle breakpoint|ctrl+f8|cmd+f8|✅|
 |workbench.view.debug|View breakpoints|ctrl+shift+f8|cmd+shift+f8|✅|
 
+### Search / Replace
+
+| Command | Feature | Linux/Win | macOS |
+|---------|---------|----------------|-------|
+|workbench.action.quickOpenNavigateNext|Switch between tabs and tool window|ctrl+tab|ctrl+tab|
+|workbench.action.quickOpen|Go to file|ctrl+shift+n|cmd+shift+o|
+|workbench.action.closeActiveEditor|Close active editor tab|ctrl+f4|cmd+w|
+|workbench.action.openGlobalSettings|Open Settings dialog|ctrl+alt+s|cmd+,|
+|editor.action.clipboardCutAction|Cut current line to clipboard|ctrl+x|cmd+x|
+|editor.action.clipboardCopyAction|Copy current line to clipboard|ctrl+c|cmd+c|
+
 ### Editing
 
-| Command | Feature | Linux, Windows | macOS |
-|---------|---------|----------------|-------|
+| Command | Feature | Linux/Win | macOS | |
+|---------|---------|----------------|-------|-|
 
 ### Refactoring
 
-| Command | Feature | Linux, Windows | macOS |
-|---------|---------|----------------|-------|
+| Command | Feature | Linux/Win | macOS | |
+|---------|---------|----------------|-------|-|
 
 ### Navigation
 
-| Command | Feature | Linux, Windows | macOS |
-|---------|---------|----------------|-------|
+| Command | Feature | Linux/Win | macOS | |
+|---------|---------|----------------|-------|-|
 
 ### Compile and Run
 
-| Command | Feature | Linux, Windows | macOS |
-|---------|---------|----------------|-------|
+| Command | Feature | Linux/Win | macOS | |
+|---------|---------|----------------|-------|-|
 
 ### Usage Search
 
-| Command | Feature | Linux, Windows | macOS |
-|---------|---------|----------------|-------|
+| Command | Feature | Linux/Win | macOS | |
+|---------|---------|----------------|-------|-|
 
 ### VCS / Local History
 
-| Command | Feature | Linux, Windows | macOS |
-|---------|---------|----------------|-------|
+| Command | Feature | Linux/Win | macOS | |
+|---------|---------|----------------|-------|-|
 
 ### Live Templates
 
-| Command | Feature | Linux, Windows | macOS |
-|---------|---------|----------------|-------|
+| Command | Feature | Linux/Win | macOS | |
+|---------|---------|----------------|-------|-|
 
 ## License
 [MIT](LICENSE)

@@ -1033,7 +1033,7 @@
         "key": "ctrl+shift+f12",
         "mac": "cmd+shift+f12",
         "command": "workbench.action.maximizeEditor",
-        "intellij": "Toggle maximizing editor",
+        "intellij": "Toggle maximizing editor"
       }
     ],
     "configuration": {
