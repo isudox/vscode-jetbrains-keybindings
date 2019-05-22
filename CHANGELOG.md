@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.9]
+- Merge a PR from VS Code team and fix some wrong keybindings.
+- Add travis-ci configures.
+
 ## [0.1.8]
 - Add refactor this command with `^` + `t` in macOS and `ctrl` + `shift` + `alt` + `t` in Windows & Linux.
 

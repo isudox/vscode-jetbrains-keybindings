@@ -90,9 +90,9 @@ function activate(context) {
   const editorConfig = vscode.workspace.getConfiguration('editor')
   const updateSetting = new VersionThreeUpdateSetting()
 
-  if (!updateSetting.hasPrompted && isDefaultValueSet(editorConfig, versionThreeSettings)) {
-    new View(updateSetting, editorConfig).showMessage()
-  }
+  // if (!updateSetting.hasPrompted && isDefaultValueSet(editorConfig, versionThreeSettings)) {
+  //   new View(updateSetting, editorConfig).showMessage()
+  // }
 
   // The command has been defined in the package.json file
   // Now provide the implementation of the command with  registerCommand
